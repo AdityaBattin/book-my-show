@@ -33,3 +33,21 @@ npm install @headlessui/react
 npm install react-icons
 
 <!-- https://react-icons.github.io/react-icons  -->
+
+# Extentions Used in this project in VS-Code :
+
+## Tailwind CSS Intellisence :
+
+since our project is using tailwind so we have to make use of it for continus suggestions
+on the project.
+
+# External websites used in project for diffrent Purposes
+
+## TailWind CSS SHADES ("https://www.tailwindshades.com/"):
+
+inorder to use the shades of the given colour we use this and use it by storing it in
+'tailqind.config.js' in extentions --> color --> yourTitle
+
+Actually Tilwind Provides with default color palates
+("https://tailwindcss.com/docs/customizing-colors")
+Many times it is sufficent but if we need our shade then use "tailwindshades"
