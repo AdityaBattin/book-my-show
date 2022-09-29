@@ -64,7 +64,7 @@ function NavLg() {
           <span className="text-gray-200 text-base flex items-center cousor-pointer hover:text-white ">
             Nanded WAS <BiChevronDown className="w-5 h-5" />
           </span>
-          <button className="bg-red-600 text-white px-2 py-2 text-sm rounded">
+          <button className="bg-red-600 text-white px-2 py-1 text-sm rounded">
             Sign In
           </button>
           <div className="w-8 h-8 text-white">

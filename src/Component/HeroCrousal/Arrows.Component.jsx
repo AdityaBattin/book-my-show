@@ -4,11 +4,10 @@ export function NextArrow(props) {
   return (
     <>
       <div
-        classname={props.classname}
-        // style={...props.style}
-        style={{ color: "red", padding: "10px" }}
+        className={props.className}
+        style={{ ...props.style }}
         onClick={props.onClick}
-      ></div>
+      />
     </>
   );
 }
@@ -17,11 +16,10 @@ export function PrevArrow(props) {
   return (
     <>
       <div
-        classname={props.classname}
-        // style={...props.style}
-        style={{ color: "red", padding: "10px" }}
+        className={props.className}
+        style={{ ...props.style }}
         onClick={props.onClick}
-      ></div>
+      />
     </>
   );
 }
