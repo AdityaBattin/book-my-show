@@ -51,3 +51,20 @@ inorder to use the shades of the given colour we use this and use it by storing 
 Actually Tilwind Provides with default color palates
 ("https://tailwindcss.com/docs/customizing-colors")
 Many times it is sufficent but if we need our shade then use "tailwindshades"
+
+# MoviesDB API TMDB ("https://www.themoviedb.org/settings/api")
+
+## I logined with my credentials not for you.. create your own
+
+In our application we will create our env file and use API Key
+My key (###7c5d623169408d6327164584170caf1b###)
+
+MovieDB API DOCUMENTATION ("https://developers.themoviedb.org/3")
+
+Example API Request is : ("https://api.themoviedb.org/3/movie/550?api_key=7c5d623169408d6327164584170caf1b")
+
+Note : ?.api_key={your_key}
+
+Note : We Imported AXIOS package so that we can use thease API
+
+### TIP : Use JSON Fromatter for directly seeing the get rquests

@@ -8,14 +8,13 @@ const EntertainmentCard = (props) => {
         <img
           className="w-full h-full rounded-lg"
           src={props.src}
-          alt="Entertainment"
+          alt="entertainment"
         />
       </div>
     </>
   );
 };
 
-// creating card slider
 const EntertainmentCardSlider = () => {
   const EntertainmentImage = [
     "https://in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:ote-MTI1KyBFdmVudHM%3D,otc-FFFFFF,otf-Roboto,ots-64,ox-48,oy-320,ott-b:w-300/workshops-collection-202007231330.png",
@@ -32,7 +31,7 @@ const EntertainmentCardSlider = () => {
     "https://in.bmscdn.com/discovery-catalog/collections/tr:w-800,h-800:w-300/adventure-collection-202010140844.png",
   ];
 
-  const settingSlider = {
+  const settings = {
     infinite: false,
     autoplay: false,
     slidesToShow: 5,
@@ -66,10 +65,10 @@ const EntertainmentCardSlider = () => {
 
   return (
     <>
-      <Slider {...settingSlider}>
-        {EntertainmentImage.map((image, index) => {
-          <EntertainmentCard src={image} key={index} />;
-        })}
+      <Slider {...settings}>
+        {EntertainmentImage.map((image, index) => (
+          <EntertainmentCard src={image} key={index} />
+        ))}
       </Slider>
     </>
   );
