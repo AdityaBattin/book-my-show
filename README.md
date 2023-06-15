@@ -2,6 +2,7 @@
 
 Book My Show's frontend application is built using React.js and Thunderbolt API. React.js provides an efficient and component-based approach for creating a seamless user interface. The Thunderbolt API acts as a backend technology, offering data and functionality to the frontend. React.js enables the creation of reusable UI components, facilitating efficient development and maintenance. Thunderbolt API serves as a bridge between the frontend and backend, providing data on movies, showtimes, theaters, and ticket availability. Users can easily browse movies, view showtimes, select seats, and complete the booking process through the dynamic and interactive frontend interface. The combination of React.js and Thunderbolt API ensures efficient rendering, smooth navigation, and enhances the overall user experience.
 
+Preview Of the Netlify hosted app : https://bookmyshowapp.netlify.app/
 
 ## MoviesDB API TMDB ("https://www.themoviedb.org/settings/api")
 ### I logined with my credentials not for you.. create your own
