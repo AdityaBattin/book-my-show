@@ -5,7 +5,7 @@ import EntertainmentCardSlider from "../components/Entertainment/EntertainmentCa
 import HeroCarousel from "../components/HeroCarousel/HeroCarousel.Component";
 import PosterSlider from "../components/PosterSlider/PosterSlider.Component";
 // Layout HOC
-import DefaultlayoutHoc from '../layout/Default.layout';
+import DefaultlayoutHoc from '../Layout/Default.layout';
 
 const HomePage = () => {
   const [recommendedMovies, setRecommendedMovies] = useState([]);

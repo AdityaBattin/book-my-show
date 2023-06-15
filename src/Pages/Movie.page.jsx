@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react';
-import MovielayoutHoc from '../layout/Movie.layout';
+import MovielayoutHoc from '../Layout/Movie.layout';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import { MovieContext } from "../context/Movie.context";

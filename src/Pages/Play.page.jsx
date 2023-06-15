@@ -1,5 +1,5 @@
 import React from "react";
-import DefaultLayoutHoc from "../layout/Default.layout";
+import DefaultLayoutHoc from "../Layout/Default.layout";
 
 //Components
 import Poster from "../components/Poster/Poster.Component";
