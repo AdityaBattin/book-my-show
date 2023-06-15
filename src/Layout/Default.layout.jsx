@@ -1,22 +1,14 @@
-import React from "react";
-// Components
+import React from 'react'
+import Navbar from "../components/Navbar/Navbar.Component";
 
-//LayoutHOC
-import NavBar from "../Component/NavBar/NavBar.component";
+const DefaultlayoutHoc = (Component) => ({ ...props }) => {
+  return (
+    <div>
+      <Navbar></Navbar>
+       <Component { ...props }></Component> 
+       <div>Footer</div>
+    </div>
+  )
+}
 
-const DefaultlayoutHOC =
-  (Component) =>
-  ({ ...props }) => {
-    return (
-      <div>
-        {/* <div>DefaultlayoutHOC</div> */}
-        <div>
-          <NavBar />
-          <Component {...props} />
-        </div>
-        <div>Footer</div>
-      </div>
-    );
-  };
-
-export default DefaultlayoutHOC;
+export default DefaultlayoutHoc;

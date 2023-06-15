@@ -68,3 +68,16 @@ Note : ?.api_key={your_key}
 Note : We Imported AXIOS package so that we can use thease API
 
 ### TIP : Use JSON Fromatter for directly seeing the get rquests
+
+## Context.jsx
+
+In React we have Context that stores the data and provides it to my Page where ever nessesary
+What is context? --> it is an HOC ( Higher Order Component )
+
+- we use createContext in react library to do it
+
+- We Can Store / update data from any component and then can access it in any component
+
+- Here in This Project we created the context - MovieContext and created a provider that stores the data. We retrun both MovieContext.provider
+
+- Also we encapsulate the MovieContext around the app component in index.js file
